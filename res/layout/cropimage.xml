@@ -36,17 +36,18 @@
             android:paddingLeft="10dip"
             android:paddingRight="10dip">
             <Button
-                android:id="@+id/save"
-                android:layout_width="100dip"
+                android:id="@+id/discard"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:text="@string/crop_save_text"/>
+                android:text="@string/crop_discard_text"/>
             <Button
-                android:id="@+id/discard"
-                android:layout_width="100dip"
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:text="@string/crop_discard_text"/>
+                android:text="@string/crop_save_text"/>
+            
         </RelativeLayout>
     </RelativeLayout>
 </FrameLayout>
